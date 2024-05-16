@@ -11,7 +11,8 @@
     --texttitle-color: #000000;
     --text2-color: #585858;
     --text3-color: #757575;
-    --text4-color: #E0E0E0; 
+    --text4-color: #BABABA;
+    --text5-color: #E0E0E0; 
 }
 
 .container{
@@ -57,6 +58,15 @@ body{
     font-weight: 600;
     font-size: 16px;
     line-height: 22.4px;
+    color: var(--text3-color);
+}
+
+.header-navigation-link-1{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: var(--texttitle-color);
 }
 
 .haeder-text{
@@ -64,6 +74,7 @@ body{
     font-weight: 600;
     font-size: 16px;
     line-height: 22.4px;
+    color: var(--text3-color);
 }
 
 .haeder-text-2{
@@ -71,6 +82,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--texttitle-color);
 }
 
 .home-page-headline{
@@ -78,6 +90,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--accent-color);
 }
 
 .home-page-headline-2{
@@ -85,6 +98,7 @@ body{
     font-weight: 400;
     font-size: 56px;
     line-height: 67.2px;
+    color: var(--texttitle-color);
 }
 
 .home-page-text-information{
@@ -92,6 +106,7 @@ body{
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
+    color: var(--text3-color);
 }
 
 .home-page-button{
@@ -99,6 +114,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--accent-color);
 }
 
 .about-platform-headline{
@@ -106,13 +122,15 @@ body{
     font-weight: 400;
     font-size: 48px;
     line-height: 48px;
+    color: var(--texttitle-color);
 }
 
 .about-platform-text{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
+    color: var(--text3-color);
 }
 
 .about-vocabulary-headline{
@@ -120,6 +138,7 @@ body{
     font-weight: 400;
     font-size: 48px;
     line-height: 48px;
+    color: var(--texttitle-color);
 }
 
 .about-vocabulary-text{
@@ -127,6 +146,7 @@ body{
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
+    color: var(--text3-color);
 }
 
 .about-vocabulary-button{
@@ -134,6 +154,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--accent-color);
 }
 
 .about-progress-headline{
@@ -141,6 +162,7 @@ body{
     font-weight: 400;
     font-size: 48px;
     line-height: 48px;
+    color: var(--texttitle-color);
 }
 
 .about-progress-text{
@@ -148,6 +170,7 @@ body{
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
+    color: var(--text3-color);
 }
 
 .about-progress-button{
@@ -155,6 +178,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--accent-color);
 }
 
 .footer-link{
@@ -162,6 +186,7 @@ body{
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
+    color: var(--text3-color);
 }
 
 .footer-link-programmes{
@@ -169,6 +194,11 @@ body{
     font-weight: 600;
     font-size: 12px;
     line-height: 12px;
+    color: var(--text3-color);
+}
+
+.footer-img{
+    color: var(--text4-color);
 }
 
 .main-level{
@@ -176,6 +206,15 @@ body{
     font-weight: 400;
     font-size: 26px;
     line-height: 26px;
+    color: var(--text3-color);
+}
+
+.main-level-1{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: var(--texttitle-color);
 }
 
 .main-level-explain{
@@ -183,13 +222,56 @@ body{
     font-weight: 600;
     font-size: 12px;
     line-height: 16.8px;
+    color: var(--backgroundmain-color);
+    background-color: var(--classbookelements-color);
+    border: none;
 }
+
+.main-level-explain-green{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: var(--classbookelements-color);
+    background-color: rgb(99, 155, 109, 0.3);
+    border: none;
+}
+
+.main-level-explain-yellow{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: var(--classbookelements3-color);
+    background-color: rgb(196, 162, 76, 0.3);
+    border: none;
+}
+
+.main-level-explain-red{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: var(--classbookelements2-color);
+    background-color: rgb(203, 91, 67, 0.3);
+    border: none;
+}
+
 
 .example-card-title{
     font-family: 'Dela Gothic One';
     font-weight: 400;
     font-size: 32px;
     line-height: 32px;
+    color: var(--texttitle-color);
+}
+
+.example-card-title-1{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--text3-color);
 }
 
 .example-card-text{
@@ -197,6 +279,7 @@ body{
     font-weight: 600;
     font-size: 18px;
     line-height: 25.2px;
+    color: var(--texttitle-color);
 }
 
 .example-card-button{
@@ -204,6 +287,9 @@ body{
     font-weight: 600;
     font-size: 14px;
     line-height: 19.6px;
+    color: var(--backgroundmain-color);
+    background-color: var(--classbookelements2-color);
+    border: none;
 }
 
 .example-card-text-explain{
@@ -211,6 +297,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    color: var(--texttitle-color);
 }
 
 .example-card-text{
@@ -218,13 +305,27 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    color: var(--text3-color);
 }
 
-.example-card-button-add, .example-card-button-remove{
+.example-card-button-add{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--backgroundmain-color);
+    background-color: var(--classbookelements-color);
+    border: none;
+}
+
+.example-card-button-remove{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--classbookelements2-color);
+    background-color: rgb(203, 91, 67, 0.3);
+    border: none;
 }
 
 .main-list-button{
@@ -232,10 +333,35 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.main-list-button-1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--backgroundmain-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.main-list-text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: var(--text3-color);
 }
 
 .header{
     padding: 24px 0;
+    background-color: var(--backgroundmain-color);
 }
 
 .homepage-left{
@@ -284,3 +410,28 @@ body{
 .home-page-img-2{
     margin-left: 97.55px;
 }
+
+.home-page{
+    background-color: var(--backgroundmain-color);
+}
+
+.about-platform{
+    background-color: var(--backgroundmain2-color);
+}
+
+.about-vocabulary{
+    background-color: var(--backgroundmain-color);
+}
+
+.about-progress{
+    background-color: var(--backgroundmain2-color);
+}
+
+.footer{
+    background-color: var(--backgroundmain-color);
+}
+
+.main{
+    background-color: var(--backgroundmain-color);
+}
+
