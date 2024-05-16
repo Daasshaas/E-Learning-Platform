@@ -1,15 +1,286 @@
+:root{
+    --backgroundmain-color: #F6F5F4;
+    --backgroundmain2-color: #FFFFFF; 
+    --accent-color: #2B788B;
+    --accent2-color: #C3DCE3;
+    --accentelements-color: #F2D4DC; 
+    --accentelements2-color: #945069;
+    --classbookelements-color: #639B6D;
+    --classbookelements2-color: #CB5B43;
+    --classbookelements3-color: #C4A24C;
+    --texttitle-color: #000000;
+    --text2-color: #585858;
+    --text3-color: #757575;
+    --text4-color: #E0E0E0; 
+}
+
+.container{
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 .montserrat-regular{
+    font-family: 'Montserrat';
     font-weight: 400;
     font-style: normal;
 }
 
 .montserrat-semibold{
+    font-family: 'Montserrat';
     font-weight: 600;
     font-style: normal;
 }
 
 .montserrat-bold{
+    font-family: 'Montserrat';
     font-weight: 700;
     font-style: normal;
 }
 
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: 'Montserrat', 'Dela Gothic One';
+}
+
+.header-navigation-link, .header-link-2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.haeder-text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.haeder-text-2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.home-page-headline{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.home-page-headline-2{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67.2px;
+}
+
+.home-page-text-information{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.home-page-button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.about-platform-headline{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.about-platform-text{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.about-vocabulary-headline{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.about-vocabulary-text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.about-vocabulary-button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.about-progress-headline{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.about-progress-text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.about-progress-button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.footer-link{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.footer-link-programmes{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.main-level{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.main-level-explain{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+}
+
+.example-card-title{
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.example-card-text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.example-card-button{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.example-card-text-explain{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.example-card-text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.example-card-button-add, .example-card-button-remove{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.main-list-button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header{
+    padding: 24px 0;
+}
+
+.homepage-left{
+    margin-top: 94.61px;
+    margin-right: 0;
+    margin-bottom: 134.61px;
+    margin-left: 369.95px;
+    padding-right: 1019.05px;
+}
+
+.homepage-right{
+    padding-top: 0;
+    padding-right: 253.1px;
+    padding-bottom: 30px;
+    padding-left: 870.05px;
+}
+
+.home-page-headline{
+    margin-top: 94.61px;
+    margin-bottom: 0;
+}
+
+.home-page-headline-2{
+    margin-top: 24px;
+}
+
+.home-page-text-information{
+    margin-top: 30px;
+}
+
+.home-page-button{
+    margin-top: 32px;
+    margin-right: 366px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 14px;
+    padding-right: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+}
+
+.home-page-img{
+    margin-top: 48.78px;
+}
+
+.home-page-img-2{
+    margin-left: 97.55px;
+}
