@@ -1,218 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset200802.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
-  <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100..900&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <nav class="header-navigation">
-        <a class="header-link" href="index.html"><img class="header-img" src="images/GlobalTalklogo.png" alt="GlobalTalk" /></a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-navigation-link-1" href="index.html">Home</a>
-          </li>
-          <li class="header-item">
-            <a class="header-navigation-link" href="index.html">Textbook</a>
-          </li>
-          <li class="header-item">
-            <a class="header-navigation-link" href="index.html">Statistics</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link-2" href="index.html">Games
-              <img class="header-navigation-img" src="images/Vector 2games.png" alt="vector-games" /></a>
-          </li>
-        </ul>
-      </nav>
-      <div>
-        <img class="header-img-2" src="images/Frame 2A-account.png" alt="account" />
-        <p class="haeder-text">Alex</p>
-        <p class="haeder-text-2">Sign Out →</p>
-      </div>
-    </div>
-  </header>
-  <main class="main">
-    <section class="level">
+  <body>
+    <header class="header">
       <div class="container">
-        <a class="level-link" href="#"><img class="level-photo" src="images/Frame 3textbook.png" alt="textbook" /></a>
-        <a class="level-link" href="#"><img class="level-photo" src="images/Frame 8dictionary.png"
-            alt="dictionary" /></a>
-        <a class="level-link" href="#"><img class="level-photo" src="images/Group 21sprint-2.png" alt="sprint-2" /></a>
-        <a class="level-link" href="#"><img class="level-photo" src="images/Group 20audio-call-2.png"
-            alt="audio-call-2" /></a>
-        <a class="level-link" href="#"><img class="level-photo" src="images/Component 2settings.png"
-            alt="settings" /></a>
+        <nav class="header-navigation">
+          <a class="header-link" href="index.html"
+            ><img
+              class="header-img"
+              src="images/GlobalTalklogo.png"
+              alt="GlobalTalk"
+          /></a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-navigation-link-1" href="index.html">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-navigation-link" href="classbook.html"
+                >Textbook</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-navigation-link" href="#">Statistics</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link-2" href="#"
+                >Games
+                <img
+                  class="header-navigation-img"
+                  src="images/Vector 2games.png"
+                  alt="vector-games"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container">
+          <button class="header-account" href="#">A</button>
+          <p class="haeder-text-2">Sign Out →</p>
+        </div>
       </div>
-      <div class="container">
-        <ul class="main-level-list">
-          <li class="main-level-item">
-            <h4 class="main-level-1">A1</h4>
-            <button class="main-level-explain">Easy</button>
-          </li>
-          <li class="main-level-item">
-            <h4 class="main-level">A2</h4>
-            <button class="main-level-explain-green">Easy</button>
-          </li>
-          <li class="main-level-item">
-            <h4 class="main-level">B1</h4>
-            <button class="main-level-explain-yellow">Medium</button>
-          </li>
-          <li class="main-level-item">
-            <h4 class="main-level">B2</h4>
-            <button class="main-level-explain-yellow">Medium</button>
-          </li>
-          <li class="main-level-item">
-            <h4 class="main-level">C1</h4>
-            <button class="main-level-explain-red">Hard</button>
-          </li>
-          <li class="main-level-item">
-            <h4 class="main-level">C2</h4>
-            <button class="main-level-explain-red">Hard</button>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="example">
-      <div class="container">
-        <figure class="example-card">
-          <img class="example-card-photo" src="images/Frame 35270photo.png" alt="photo-study" />
-          <figcaption class="example-card-name">
-            <p class="example-card-title"> remark / </p>
-            <p class="example-card-title-1">note</p>
-            <button class="example-card-button-listen">
-              <img class="example-card-photo-listen" src="images/Frame 21listen-2.png" alt="listen-img" />
-            </button>
-            <p class="example-card-text">[rimɑ́ːrk]</p>
-            <button class="example-card-button">compound</button>
-            <p class="example-card-text-explain">
-              To remark is to say something. - Remarquer, c'est dire quelque
-              chose
-            </p>
-            <p class="example-card-text">
-              The teacher remarked on how quickly the students were learning.
-              L'enseignant a noté la rapidité avec laquelle les élèves
-              apprenaient.
-            </p>
-            <button class="example-card-button-add">Add to learned</button>
-            <button class="example-card-button-remove">
-              Remove from dictionary
-            </button>
-          </figcaption>
-        </figure>
-        <figure class="example-card">
-          <img class="example-card-photo" src="images/Frame 35270photo (1).png" alt="photo-play" />
-          <figcaption class="example-card-name">
-            <p class="example-card-title">awful / </p>
-            <p class="example-card-title-1">terrible</p>
-          <button class="example-card-button-listen">
-            <img class="example-card-photo-listen" src="images/Frame 21listen-2.png" alt="listen-img" />
-          </button>
-            <p class="example-card-text">[ɔ́ːfəl]</p>
-            <button class="example-card-button">compound</button>
-            <p class="example-card-text-explain">To remark is to say something. - Remarquer, c'est dire quelque
-              chose</p>
-            <p class="example-card-text">The teacher remarked on how quickly the students were learning.
-              L'enseignant a noté la rapidité avec laquelle les élèves
-              apprenaient.</p>
-            <button class="example-card-button-add">Add to learned</button>
-            <button class="example-card-button-remove">Remove from dictionary</button>
-          </figcaption>
-        </figure>
-        <figure class="example-card">
-          <img class="example-card-photo" src="images/Frame 35270photo.png" alt="photo-study-2" />
-          <figcaption class="example-card-name">
-            <p class="example-card-title">remark / </p>
-            <p class="example-card-title-1">note</p>
-          <button class="example-card-button-listen">
-            <img class="example-card-photo-listen" src="images/Frame 21listen-2.png" alt="listen-img" />
-          </button>
-          <p class="example-card-text">[rimɑ́ːrk]</p>
-          <button class="example-card-explain-button">
-            compound
-          </button>
-          <p class="example-card-text-explain">To remark is to say something. - Remarquer, c'est dire quelque
-            chose</p>
-          <p class="example-card-text">The teacher remarked on how quickly the students were learning.
-            L'enseignant a noté la rapidité avec laquelle les élèves
-            apprenaient.</p>
-          <button class="example-card-button-add">Add to learned</button>
-          <button class="example-card-button-remove">
-            Remove from dictionary</button>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="container">
-        <ul class="main-list">
-          <li class="main-item"><button class="main-list-button">←</button></li>
-          <li class="main-item"><button class="main-list-button">1</button></li>
-          <li class="main-item"><button class="main-list-button-1">2</button></li>
-          <li class="main-item"><button class="main-list-button">3</button></li>
-          <li class="main-item">
-            <p class="main-list-text">...</p>
-          </li>
-          <li class="main-item"><button class="main-list-button">27</button></li>
-          <li class="main-item"><button class="main-list-button">28</button></li>
-          <li class="main-item"><button class="main-list-button">29</button></li>
-          <li class="main-item"><button class="main-list-button">→</button></li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <section class="footer-information">
-      <div class="container">
-
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Home</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Textbook</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Statistics</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Sprint</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Audio-call</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Alex</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Gabriel</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="index.html">Marcus</a>
-          </li>
-        </ul>
-
-      </div>
-      <div class="container">
-        <a class="footer-link-programmes" href="index.html"><img class="footer-img" src="images/Frame 30program.png"
-            alt="git-photo" /></a>
-        <a class="footer-link-programmes" href="index.html"><img class="footer-img" src="images/GTgt.png" alt="gt-photo" /></a>
-        <a class="footer-link-programmes" href="index.html"><img class="footer-img" src="images/Frame 31youtube.png"
-            alt="youtube" /></a>
-        <p class="footer-link-programmes">
-          ©2021 GlobalTalk. Project for <a class="footer-link-programmes" href="index.html">GlobalTalk</a>.
-        </p>
-      </div>
-    </section>
-  </footer>
-</body>
-
+    </header>
+    <div class="header-main-line"></div>
+    <main class="main">
+      <section class="level">
+        <div class="container">
+          <div class="main-level-box">
+            <a class="level-link" href="#"
+              ><img
+                class="level-photo"
+                src="images/Vectorhat.png"
+                alt="hat"
+              />Textbook</a
+            >
+            <a class="level-link-2" href="#"
+              ><img
+                class="level-photo"
+                src="images/Vectorbook.png"
+                alt="book"
+              />Dictionary</a
+            >
+            <a class="level-link" href="#"
+              ><img
+                class="level-photo"
+                src="images/Group 21sprint-2.png"
+                alt="sprint-2"
+            /></a>
+            <a class="level-link" href="#"
+              ><img
+                class="level-photo"
+                src="images/Group 20audio-call-2.png"
+                alt="audio-call-2"
+            /></a>
+            <a class="level-link" href="#"
+              ><img
+                class="level-photo"
+                src="images/Component 2settings.png"
+                alt="settings"
+            /></a>
+          </div>
+        </div>
+        <div class="container">
+          <ul class="main-level-list">
+            <li class="main-level-item">
+              <h4 class="main-level-1">A1</h4>
+              <button class="main-level-explain">Easy</button>
+            </li>
+            <div class="main-level-item-line"></div>
+            <li class="main-level-item">
+              <h4 class="main-level">A2</h4>
+              <button class="main-level-explain-green">Easy</button>
+            </li>
+            <li class="main-level-item">
+              <h4 class="main-level">B1</h4>
+              <button class="main-level-explain-yellow">Medium</button>
+            </li>
+            <li class="main-level-item">
+              <h4 class="main-level">B2</h4>
+              <button class="main-level-explain-yellow">Medium</button>
+            </li>
+            <li class="main-level-item">
+              <h4 class="main-level">C1</h4>
+              <button class="main-level-explain-red">Hard</button>
+            </li>
+            <li class="main-level-item">
+              <h4 class="main-level">C2</h4>
+              <button class="main-level-explain-red">Hard</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="example">
+        <div class="container">
+          <figure class="example-card">
+            <img
+              class="example-card-photo"
+              src="images/Frame 35270photo.png"
+              alt="photo-study"
+            />
+            <figcaption class="example-card-name">
+              <p class="example-card-title">remark /</p>
+              <p class="example-card-title-1">note</p>
+              <a class="example-card-link-listen">
+                <img
+                  class="example-card-photo-listen"
+                  src="images/Frame 21listen-2.png"
+                  alt="listen-img"
+                />
+              </a>
+              <p class="example-card-text-transcription">[rimɑ́ːrk]</p>
+              <button class="example-card-button">compound</button>
+              <p class="example-card-text-explain">
+                To remark is to say something. - Remarquer, c'est dire quelque
+                chose
+              </p>
+              <p class="example-card-text">
+                The teacher remarked on how quickly the students were learning.
+                L'enseignant a noté la rapidité avec laquelle les élèves
+                apprenaient.
+              </p>
+              <button class="example-card-button-add">Add to learned</button>
+              <button class="example-card-button-remove">
+                Remove from dictionary
+              </button>
+            </figcaption>
+          </figure>
+          <figure class="example-card">
+            <img
+              class="example-card-photo"
+              src="images/Frame 35270photo (1).png"
+              alt="photo-play"
+            />
+            <figcaption class="example-card-name">
+              <p class="example-card-title">awful /</p>
+              <p class="example-card-title-1">terrible</p>
+              <a class="example-card-link-listen">
+                <img
+                  class="example-card-photo-listen"
+                  src="images/Frame 21listen-2.png"
+                  alt="listen-img"
+                />
+              </a>
+              <p class="example-card-text-transcription">[ɔ́ːfəl]</p>
+              <button class="example-card-button">compound</button>
+              <p class="example-card-text-explain">
+                To remark is to say something. - Remarquer, c'est dire quelque
+                chose
+              </p>
+              <p class="example-card-text">
+                The teacher remarked on how quickly the students were learning.
+                L'enseignant a noté la rapidité avec laquelle les élèves
+                apprenaient.
+              </p>
+              <button class="example-card-button-add">Add to learned</button>
+              <button class="example-card-button-remove">
+                Remove from dictionary
+              </button>
+            </figcaption>
+          </figure>
+          <figure class="example-card">
+            <img
+              class="example-card-photo"
+              src="images/Frame 35270photo.png"
+              alt="photo-study-2"
+            />
+            <figcaption class="example-card-name">
+              <p class="example-card-title">remark /</p>
+              <p class="example-card-title-1">note</p>
+              <a class="example-card-link-listen">
+                <img
+                  class="example-card-photo-listen"
+                  src="images/Frame 21listen-2.png"
+                  alt="listen-img"
+                />
+              </a>
+              <p class="example-card-text-transcription">[rimɑ́ːrk]</p>
+              <button class="example-card-explain-button">compound</button>
+              <p class="example-card-text-explain">
+                To remark is to say something. - Remarquer, c'est dire quelque
+                chose
+              </p>
+              <p class="example-card-text">
+                The teacher remarked on how quickly the students were learning.
+                L'enseignant a noté la rapidité avec laquelle les élèves
+                apprenaient.
+              </p>
+              <button class="example-card-button-add">Add to learned</button>
+              <button class="example-card-button-remove">
+                Remove from dictionary
+              </button>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="container">
+          <ul class="main-list">
+            <li class="main-item">
+              <button class="main-list-button">←</button>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button">1</button>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button-1">2</button>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button">3</button>
+            </li>
+            <li class="main-item">
+              <p class="main-list-text">...</p>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button">27</button>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button">28</button>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button">29</button>
+            </li>
+            <li class="main-item">
+              <button class="main-list-button">→</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer-information">
+        <div class="container">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Textbook</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Statistics</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Sprint</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Audio-call</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Alex</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Gabriel</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Marcus</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-line"></div>
+        <div class="container">
+          <a class="footer-link-programmes" href="index.html"
+            ><img
+              class="footer-img"
+              src="images/Frame 30program.png"
+              alt="git-photo"
+          /></a>
+          <a class="footer-link-programmes" href="index.html"
+            ><img class="footer-img" src="images/GTgt.png" alt="gt-photo"
+          /></a>
+          <a class="footer-link-programmes" href="index.html"
+            ><img
+              class="footer-img"
+              src="images/Frame 31youtube.png"
+              alt="youtube"
+          /></a>
+          <p class="footer-link-programmes-desc">
+            ©2021 GlobalTalk. Project for
+            <a class="footer-link-programmes-desc-1" href="index.html"
+              >GlobalTalk</a
+            >.
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
