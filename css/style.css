@@ -734,23 +734,20 @@ img.home-page-img-3{
 .main-level-box{
     background-color: var(--backgroundmain2-color);
     border-radius: 14px;
-    margin-top: 40px;
     display: flex;
     align-items: center;
 }
 
 .footer-line{
-    width: 1180px;
+    width: auto;
     height: 1.2px;
     background-color: var(--text5-color);
-    margin-right: 370px;
-    margin-bottom: 20px;
-    margin-left: 370px;
     display: flex;
     justify-content: center;
 }
 
 .footer-link-programmes-desc, .footer-link-programmes-desc-1{
+    margin-top: 27px;
     margin-bottom: 40px;
 }
 
@@ -899,8 +896,10 @@ ul.footer-right{
 }
 
 .example-card-title{
-    padding: 20px 5px;
+    padding: 10px 5px;
     padding-left: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .example-card-title-1{
@@ -910,23 +909,22 @@ ul.footer-right{
 
 .example-card-photo-listen{
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
     cursor: pointer;
-    text-align: right;
+    padding-top: 22px;
+    padding-bottom: 33px;
+    padding-left: 400px;
 }
 
 .example-card-text-transcription{
-    padding-top: 13.5px;
     padding-right: 10px;
     padding-bottom: 21.5px;
     padding-left: 40px;
 }
 
 .example-card-button{
-    margin-top: 12px;
     margin-right: 352px;
     margin-bottom: 20px;
-    margin-left: 10px;
 }
 
 .example-card-text-explain{
@@ -945,7 +943,6 @@ ul.footer-right{
 
 .example-card-button-add{
     margin-top: 5px;
-    margin-right: 20px;
     margin-bottom: 40px;
     margin-left: 40px;
 }
@@ -974,3 +971,21 @@ ul.footer-right{
 .example-card-text-button{
     display: flex;
 }
+
+.card-line{
+    width: auto;
+    height: 1.2px;
+    background-color: var(--text5-color);
+    display: flex;
+    justify-content: center;
+}
+
+.main-item{
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.main-list-text{
+    margin-top: 25px;
+}
+
