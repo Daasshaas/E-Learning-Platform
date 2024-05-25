@@ -205,6 +205,26 @@ body{
     cursor: pointer;
 }
 
+.about-vocabulary-button:hover{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--accent-color);
+    background-color: var(--accent2-color);
+    border-style: solid;
+    border-color: var(--accent2-color);
+    border-radius: 100px;
+    padding-top: 14px;
+    padding-left: 22px;
+    padding-bottom: 14px;
+    padding-right: 22px;
+    margin-top: 34px;
+    cursor: pointer;
+    background-color: #A0C8D3;
+    border-color: #A0C8D3;
+}
+
 .about-progress-headline{
     font-family: 'Dela Gothic One';
     font-weight: 400;
@@ -240,6 +260,27 @@ body{
     padding-bottom: 14px;
     padding-left: 22px;
     cursor: pointer;
+}
+
+.about-progress-button:hover{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--accent-color);
+    margin-top: 34px;
+    margin-bottom: 149px;
+    background-color: var(--accent2-color);
+    border-style: solid;
+    border-color: var(--accent2-color);
+    border-radius: 100px;
+    padding-top: 14px;
+    padding-right: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    cursor: pointer;
+    background-color: #A0C8D3;
+    border-color: #A0C8D3;
 }
 
 .footer-link{
@@ -465,6 +506,24 @@ ul.main-level-list{
     cursor: pointer;
 }
 
+.example-card-button:hover{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: var(--backgroundmain-color);
+    background-color: var(--classbookelements2-color);
+    border: none;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    cursor: pointer;
+    background-color: #b6513c;
+}
+
+
 .example-card-explain-button{
     font-family: 'Montserrat';
     font-weight: 600;
@@ -513,6 +572,23 @@ ul.main-level-list{
     cursor: pointer;
 }
 
+.example-card-button-add:hover{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--backgroundmain-color);
+    background-color: var(--classbookelements-color);
+    border: none;
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: #54835c;
+}
+
 .example-card-button-remove{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -527,6 +603,23 @@ ul.main-level-list{
     padding-bottom: 12px;
     padding-left: 20px;
     cursor: pointer;
+}
+
+.example-card-button-remove:hover{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--classbookelements2-color);
+    background-color: rgb(203, 91, 67, 0.3);
+    border: none;
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: rgb(163, 72, 54, 0.4);
 }
 
 .main-list-button{
@@ -544,6 +637,24 @@ ul.main-level-list{
     padding-bottom: 14px;
     padding-left: 17px;
     cursor: pointer; 
+}
+
+.main-list-button:hover{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 3px;
+    padding-top: 14px;
+    padding-right: 17px;
+    padding-bottom: 14px;
+    padding-left: 17px;
+    cursor: pointer;
+    background-color: var(--text4-color);
 }
 
 .main-list-button-1{
@@ -632,7 +743,9 @@ img.home-page-img-3{
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
-    color: var(--accent-color); 
+    color: var(--accent-color);
+    background-color: #A0C8D3;
+    border-color: #A0C8D3;
 }
 
 .home-page-img{
@@ -957,6 +1070,7 @@ ul.footer-right{
 .example-card-name{
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 22.9px 45.8px -11.45px #34292714;
 }
 
 .example-card-button-ar{
@@ -988,4 +1102,3 @@ ul.footer-right{
 .main-list-text{
     margin-top: 25px;
 }
-
