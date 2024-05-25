@@ -812,7 +812,7 @@ img.home-page-img-3{
 
 .example-card-bg{
     display: flex;
-    width: 926px;
+    
     border-radius: 14px;
     background-color: var(--backgroundmain2-color);
 }
