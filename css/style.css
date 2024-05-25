@@ -85,6 +85,7 @@ body{
     padding-right: 14px;
     padding-bottom: 9px;
     padding-left: 14px;
+    cursor: pointer;
 }
 
 .haeder-text{
@@ -93,6 +94,7 @@ body{
     font-size: 16px;
     line-height: 22.4px;
     color: var(--text3-color);
+    cursor: pointer;
 }
 
 .haeder-text-2{
@@ -101,6 +103,7 @@ body{
     font-size: 16px;
     line-height: 16px;
     color: var(--texttitle-color);
+    cursor: pointer;
 }
 
 .home-page-headline{
@@ -183,6 +186,7 @@ body{
     padding-bottom: 14px;
     padding-right: 22px;
     margin-top: 34px;
+    cursor: pointer;
 }
 
 .about-progress-headline{
@@ -219,6 +223,7 @@ body{
     padding-right: 22px;
     padding-bottom: 14px;
     padding-left: 22px;
+    cursor: pointer;
 }
 
 .footer-link{
@@ -285,6 +290,8 @@ body{
     line-height: 26px;
     color: var(--text3-color);
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .level-link-2{
@@ -294,6 +301,16 @@ body{
     line-height: 26px;
     color: var(--texttitle-color);
     text-decoration: none;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+}
+
+ul.main-level-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-level{
@@ -325,6 +342,7 @@ body{
     padding-right: 8px;
     padding-bottom: 4px;
     padding-left: 8px;
+    cursor: pointer;
 }
 
 .main-level-explain-green{
@@ -340,6 +358,7 @@ body{
     padding-right: 8px;
     padding-bottom: 4px;
     padding-left: 8px;
+    cursor: pointer;
 }
 
 .main-level-explain-yellow{
@@ -355,6 +374,7 @@ body{
     padding-right: 8px;
     padding-bottom: 4px;
     padding-left: 8px;
+    cursor: pointer;
 }
 
 .main-level-explain-red{
@@ -370,6 +390,11 @@ body{
     padding-right: 8px;
     padding-bottom: 4px;
     padding-left: 8px;
+    cursor: pointer;
+}
+
+.example-card-photo{
+    border-radius: 14px;
 }
 
 .example-card-title{
@@ -417,6 +442,7 @@ body{
     padding-right: 12px;
     padding-bottom: 4px;
     padding-left: 12px;
+    cursor: pointer;
 }
 
 .example-card-explain-button{
@@ -432,6 +458,7 @@ body{
     padding-right: 12px;
     padding-bottom: 4px;
     padding-left: 12px;
+    cursor: pointer;
 }
 
 .example-card-text-explain{
@@ -463,6 +490,7 @@ body{
     padding-right: 20px;
     padding-bottom: 12px;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .example-card-button-remove{
@@ -478,6 +506,7 @@ body{
     padding-right: 20px;
     padding-bottom: 12px;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .main-list-button{
@@ -494,6 +523,7 @@ body{
     padding-right: 17px;
     padding-bottom: 14px;
     padding-left: 17px;
+    cursor: pointer; 
 }
 
 .main-list-button-1{
@@ -511,6 +541,7 @@ body{
     padding-right: 17px;
     padding-bottom: 14px;
     padding-left: 17px;
+    cursor: pointer;
 }
 
 .main-list-text{
@@ -573,6 +604,7 @@ img.home-page-img-3{
     border-style: solid;
     border-color: var(--accent2-color);
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .home-page-button:hover{
@@ -633,6 +665,8 @@ img.home-page-img-3{
 
 .main{
     background-color: var(--backgroundmain-color);
+    padding: 40px;
+    background-color: var(--backgroundmain-color );
 }
 
 .about-progress .homepage-right{
@@ -665,9 +699,8 @@ img.home-page-img-3{
 }
 
 .main-level-item-line{
-    width: 94px;
-    height: 2px;
-    background-color: var(--texttitle-color);
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
 }
 
 .header-main-line{
@@ -677,10 +710,11 @@ img.home-page-img-3{
 }
 
 .main-level-box{
-    width: 1180px;
-    height: 84px;
     background-color: var(--backgroundmain2-color);
     border-radius: 14px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .footer-line{
@@ -702,12 +736,7 @@ img.home-page-img-3{
     display: inline-flex;
 }
 
-.header-section{
-    display: inline-flex;
-}
-
 .header-img{
-    margin-top: 33px;
     padding-right: 30px;
 }
 
@@ -727,7 +756,7 @@ img.home-page-img-3{
 }
 
 .footer-list{
-    display: inline-flex;
+    display: flex;
 }
 
 .footer-link{
@@ -755,4 +784,71 @@ img.home-page-img-3{
     padding-right: 12px;
     padding-bottom: 30px;
     padding-left: 22px;
+}
+
+.example-card-bg{
+    width: 926px;
+    height: 336px;
+    border-radius: 14px;
+    background-color: var(--backgroundmain2-color);
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header{
+    padding: 24px 0;
+}
+
+.header-account{
+    margin-left: 443px;
+}
+
+.haeder-text{
+    margin-left: 10px;
+}
+
+.haeder-text-2{
+    margin-left: 30px;
+}
+
+.about-platform-link{
+    margin-right: 21.05px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.level-link-right-3{
+    margin-right: 15px;
+}
+
+.main-list{
+    display: flex;
+    justify-content: center;
+    
 }
