@@ -812,7 +812,7 @@ img.home-page-img-3{
 
 .example-card-bg{
     display: flex;
-    
+    align-items: center;
     border-radius: 14px;
     background-color: var(--backgroundmain2-color);
 }
@@ -899,17 +899,20 @@ ul.footer-right{
 }
 
 .example-card-title{
-    padding-top: 40px;
+    padding: 20px 35px;
     padding-left: 40px;
 }
 
 .example-card-title-1{
-    padding-top: 40px;
+    padding: 20px 35px;
     display: flex;
 }
 
 .example-card-photo-listen{
+    display: flex;
+    justify-content: flex-end;
     cursor: pointer;
+    text-align: right;
 }
 
 .example-card-text-transcription{
@@ -927,29 +930,33 @@ ul.footer-right{
 }
 
 .example-card-text-explain{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-right: 33px;
     padding-bottom: 12px; 
     padding-left: 40px;
 }
 
 .example-card-text{
-    margin-top: 12px;
+    margin-top: 6px;
     margin-right: 33px;
     margin-bottom: 20px;
     margin-left: 40px;
 }
 
 .example-card-button-add{
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: 20px;
     margin-bottom: 40px;
     margin-left: 40px;
 }
 
 .example-card-button-remove{
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: 143px;
     margin-bottom: 40px;
     margin-left: 20px;
+}
+
+.example-card-name{
+    display: flex;
 }
