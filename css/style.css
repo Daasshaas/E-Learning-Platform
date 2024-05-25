@@ -899,12 +899,12 @@ ul.footer-right{
 }
 
 .example-card-title{
-    padding: 20px 35px;
+    padding: 20px 5px;
     padding-left: 40px;
 }
 
 .example-card-title-1{
-    padding: 20px 35px;
+    padding: 20px 5px;
     display: flex;
 }
 
@@ -958,5 +958,19 @@ ul.footer-right{
 }
 
 .example-card-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.example-card-button-ar{
+    display: flex;
+}
+
+.example-card-title-listen{
+    display: flex;
+    flex-direction: row;
+}
+
+.example-card-text-button{
     display: flex;
 }
